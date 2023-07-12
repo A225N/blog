@@ -1,0 +1,41 @@
+#enjoy, #the, #moment{
+    position: absolute;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 80px;
+}
+#enjoy{
+    top: 150px;
+    left: 400px;
+}
+#the{
+    top: 250px;
+    left: 529px;
+}
+#moment{
+    top: 350px;
+    left: 578px;
+}
+
+
+
+#made, #with, #love{
+    position: absolute;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+}
+#made{
+    top: 1900px;
+    left: 418px;
+}
+#with{
+    top: 2000px;
+    left: 519px;
+}
+#love{
+    top: 2100px;
+    left: 601px;
+}

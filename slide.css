@@ -1,0 +1,103 @@
+*{
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+}
+
+
+/* Border Properties di baris atas */
+#slide{
+    position: absolute;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    top: 1200px;
+    left: 66px;
+    opacity: 1;
+    box-shadow: 10px 10px 10px #808080;
+    border-radius: 10px;
+}
+
+
+
+.items{
+    display: block;
+}
+.caption1, .caption2, .caption3{
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    top: 1650px;
+    left: 650px;
+    opacity: 0.3;
+    transition: opacity 0.4s;
+    visibility: hidden;
+}
+.items:hover .caption1{
+    opacity: 1;
+    cursor: pointer;
+}
+.items:hover .caption2{
+    opacity: 1;
+    cursor: pointer;
+}
+.items:hover .caption3{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+#arrow_left{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 1445px;
+    left: 5%;
+    background: rgba(49, 0, 0, 0);
+    opacity: 0.3;
+    transition: opacity 0.4s;
+}
+#arrow_left:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.arrow_right{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    top: 1445px;
+    right: 5%;
+    background: rgba(0, 0, 0, 0);
+    opacity: 0.3;
+    transition: opacity 0.4s;
+}
+#arrow_right:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+@keyframes fadeIn{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+
+#tes{
+    position: absolute;
+    display: block;
+    top: 2350px;
+    visibility: hidden;
+}

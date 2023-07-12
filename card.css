@@ -1,0 +1,173 @@
+/* CARDS! UNDERSTAND THIS CONCEPT! */
+
+#image1, #image2, #image3{
+    box-shadow: 10px 10px 10px #808080;
+    border-radius: 10px;
+}
+
+
+
+.card1{
+    display: block;
+}
+.text1{
+    position: absolute;
+    display: block;
+    font-size: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 100px;
+    top: 927px;
+    left: 66px;
+    padding: 35px;
+    text-align: left;
+    opacity: 1;
+    transition: 0.4s ;
+    border-radius: 10px;
+}
+.subtext1{
+    position: absolute;
+    display: block;
+    font-size: smaller;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: justify;
+    width: 225px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+    overflow: hidden;
+}
+#image1{
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 400px;
+    top: 100%;
+    left: 66px;
+    /* Border Propertes di baris atas */
+}
+.card1:hover .text1{                /*   PERHATIKAN SPASINYA!!!   */
+    height: 228px;
+    top: 799px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.card1:hover .subtext1{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.card2{
+    display: block;
+}
+.text2{
+    position: absolute;
+    font-size: inherit;
+    display: block;
+    font-family: Helvetica;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 100px;
+    top: 927px;
+    left: 516px;
+    padding: 35px;
+    text-align: left;
+    opacity: 1;
+    transition: 0.4s ;  
+    border-radius: 10px;
+}
+.subtext2{
+    position: absolute;
+    display: block;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: justify;
+    width: 225px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+    overflow: hidden;
+}
+#image2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 100%;
+    left: 516px;
+    /* Border Propertes di baris atas */
+}
+.card2:hover .text2{                /*   PERHATIKAN SPASINYA!!!   */
+    height: 228px;
+    top: 799px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.card2:hover .subtext2{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.card3{
+    display: block;
+}
+.text3{
+    position: absolute;
+    font-size: inherit;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 100px;
+    top: 927px;
+    left: 966px;
+    padding: 35px;
+    text-align: left;
+    opacity: 1;
+    transition: 0.4s ;  
+    border-radius: 10px;
+}
+.subtext3{
+    position: absolute;
+    display: block;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: justify;
+    width: 225px;
+    height: 200px;
+    opacity: 0;
+    transition: 0.4s;
+    visibility: hidden;
+    overflow: hidden;
+}
+#image3{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 100%;
+    left: 966px;
+    /* Border Propertes di baris atas */
+}
+.card3:hover .text3{                /*   PERHATIKAN SPASINYA!!!   */
+    height: 228px;
+    top: 799px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.card3:hover .subtext3{
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,0 +1,57 @@
+body{
+    width: 100%;
+}
+
+.day{
+    position: absolute;
+    display: block;
+    top: 170px;
+    right: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+
+#name{
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    font-weight: 500;
+    top: 200px;
+    left: 300px;
+}
+
+#sub_bio{
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: 300;
+    width: 600px;
+    top: 330px;
+    left: 300px;
+}
+
+#line{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 600px;
+    height: 3px;
+    top: 320px;
+    left: 300px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+    
+}
